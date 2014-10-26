@@ -30,7 +30,6 @@ public class Girl : MonoBehaviour {
 	public const string MOOD_ANGRY = "Angry";
 	public const string MOOD_CONFUSED = "Confused";
 	public const string MOOD_AROUSED = "Aroused";
-	public const string MOOD_METADATA = "Does this change the GUID";
 
 	public void IncrementHealth (float healthValue)
 	{
