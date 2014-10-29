@@ -13,9 +13,12 @@ public class BulletMove : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+		transform.Translate(Vector3.forward);
+	}
 
-
-
-
+	void OnTriggerEnter (Collider other)
+	{
+		//dodamage other
+		Destroy (gameObject);
 	}
 }
