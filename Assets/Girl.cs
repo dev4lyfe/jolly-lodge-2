@@ -10,7 +10,7 @@ public class Girl : MonoBehaviour {
 	public Location currentLocation;
 	public Activity currentActivity;
 	public Mood currentMood;
-	public float health, value, trust, maxHealth;
+	public float health, value, trust, sanity, fatigue, maxHealth;
 	public Text healthDisplay, valueDisplay, trustDisplay, activityDisplay, moodDisplay;
 
 	public float GetHealth () {return health;}
